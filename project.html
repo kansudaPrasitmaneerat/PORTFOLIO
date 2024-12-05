@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="navbar"></div>
+<section>
+  <img src="img/Vector2.png" alt="Vector" class="Star">
+  <img src="img/Vector4.png" alt="Vector" class="Blob">
+  <a href="https://www.youtube.com/@Kansuda_pra" >
+    <img src="img/YouTube.png" alt="YouTube"  class="Pro-youtube"/></a>
+    <a href="https://www.tiktok.com/@ksdnw8" target="_blank">
+      <img src="img/TikTok.png" alt="Tiktok" class="Pro-tiktok" /> </a>
+</section>
+<section>
+<div class="Project-con">
+  <a href="https://youtu.be/TGLyTBtyqDo?si=Lv3l6B041o5NoEjE"target="_blank">
+  <img src="img/y1.jpg" alt="youtube"></a>
+  <a href="https://youtu.be/rhhsEpdkM4Q?si=y9QC1-m8sNmEYYri"target="_blank">
+  <img src="img/y2.jpg" alt="youtube"></a>
+  <a href="https://youtu.be/iPfsZuBLtws?si=53iju9gS_hHYi3K7"target="_blank">
+  <img src="img/y3.jpg" alt="youtube"> </a> 
+  <a href="https://youtu.be/RmZivsMHwjo?si=R4psTjhl3WsUBjsV"target="_blank">
+  <img src="img/y4.jpg" alt="youtube"></a>
+  <a href="https://youtu.be/WGBWGozd_xw?si=8DGsP7Z9SWivW_Y9"target="_blank">
+  <img src="img/y5.jpg" alt="youtube"></a>
+  <a href="https://youtu.be/WyN_o1s1yw4?si=_XM6LkckG349ehrO"target="_blank">
+  <img src="img/y6.jpg" alt="youtube"></a>
+</div>
+</section>
+<section">
+  <div class="Tiktok">
+    <a href="https://www.tiktok.com/@ksdnw8/video/7361355791158250760?is_from_webapp=1&sender_device=pc&web_id=7443007287532701202" >
+    <img src="img/t1.png" alt="tiktok"></a>
+    <a href="https://www.tiktok.com/@ksdnw8/video/7308270486188821766?is_from_webapp=1&sender_device=pc&web_id=7443007287532701202">
+    <img src="img/t2.png" alt="tiktok"></a>
+  </div>
+</section>
+<section class="Txt-YT">
+  <ul class="Pro-txt">
+    <li>YouTube : แวะมาชม/@Kansuda_pra </li>
+  </ul>
+  <ul class="Txt-t">
+     <li>Tiktok : @ksdnw8</li>
+  </ul>
+</section>
+    <script>
+        fetch("nav.html")
+          .then((response) => response.text())
+          .then((data) => (document.getElementById("navbar").innerHTML = data))
+          .catch((error) =>
+            console.error("Error loading the navigation:", error)
+          );
+      </script>
+</body>
+</html>

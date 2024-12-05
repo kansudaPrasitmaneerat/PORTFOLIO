@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+body {
+  background-color: #d4bee4;
+}
+/*.container{
+    max-width: 1140;
+    margin: 0 auto;
+}
+
+nav{
+    padding: 1rem;
+    background-color: #3B1E54;
+}
+
+.nav-con{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a{
+    font-size: 50px;
+    color: #EEEEEE;
+    text-decoration: none;
+    padding: 0 5rem;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 0 5rem;
+}
+
+.menu li{
+    margin: 0 1rem;
+}
+
+.menu li a{
+    color: #EEEEEE;
+    text-decoration: none;
+    font-size: 36px;
+} */
+
+.demo-con {
+  display: flex;
+}
+.demo-text {
+  width: 100%;
+  padding: 10rem;
+}
+
+.demo-text h1 {
+  font-size: 42px;
+  color: #3b1e54;
+  margin-top: 5rem;
+  margin-bottom: 1.5rem;
+}
+.demo-text P {
+  font-size: 40px;
+  margin: 1rem 2.5rem;
+  color: #3b1e54;
+}
+.demo-img {
+  width: 50%;
+  padding: 1rem;
+  position: relative;
+}
+.profile-img {
+  position: absolute;
+  width: 80%;
+  top: 10rem;
+  right: 9rem;
+  z-index: 2;
+}
+.Vector {
+  position: absolute;
+  width: 100%;
+  padding-top: 13rem;
+  right: 0;
+  z-index: 1;
+}
+
+.Vector2 {
+  display: block;
+  margin-top: -11rem;
+  width: auto;
+}
+
+.back-txt {
+  margin: 0 15rem;
+  font-size: 26px;
+  line-height: 2;
+  color: #3b1e54;
+  margin-top: -4rem;
+  font-weight: bold;
+}
+
+.back-img {
+  display: flex;
+  flex-direction: column;
+  gap: 15.8px;
+  position: relative;
+  margin-top: -19rem;
+}
+.back-img img {
+  width: 35px;
+  margin-left: 12rem;
+  margin-top: auto;
+  top: -5rem;
+}
+.base {
+  margin-top: 12rem;
+  z-index: 1;
+  position: absolute;
+}
+.conber {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20;
+}
+.radius {
+  width: 300px;
+  height: 300px;
+  background-color: #eeeeee;
+  border-radius: 20px;
+  z-index: 2;
+  margin-top: 6rem;
+  margin-right: 2rem;
+  margin-left: 4.8rem;
+  opacity: 0.9;
+  box-shadow: 0 8px 15px rgba(1, 0, 0, 0.3);
+}
+.UI {
+  position: absolute;
+  z-index: 3;
+  width: 16%;
+  margin-top: -42rem;
+  margin-left: 5.7rem;
+  border-radius: 20px;
+}
+
+.HTML {
+  position: absolute;
+  z-index: 3;
+  width: 10%;
+  margin-top: -41.5rem;
+  margin-left: 30rem;
+}
+.CSS {
+  position: absolute;
+  z-index: 3;
+  width: 10%;
+  margin-top: -41.5rem;
+  margin-left: 39rem;
+}
+.MYSQL {
+  position: absolute;
+  z-index: 3;
+  width: 16%;
+  margin-top: -41.7rem;
+  margin-left: 56.8rem;
+  border-radius: 20px;
+}
+.BLYNK {
+  position: absolute;
+  z-index: 3;
+  width: 12.5%;
+  margin-top: -42.4rem;
+  margin-left: 84.3rem;
+  border-radius: 20px;
+}
+.VM {
+  position: absolute;
+  z-index: 3;
+  width: 15%;
+  margin-top: -18rem;
+  margin-left: 6.2rem;
+  border-radius: 20px;
+}
+.C {
+  position: absolute;
+  z-index: 3;
+  width: 12.5%;
+  margin-top: -18rem;
+  margin-left: 33rem;
+  border-radius: 20px;
+}
+.ARDUINO {
+  position: absolute;
+  z-index: 3;
+  width: 15%;
+  margin-top: -16.8rem;
+  margin-left: 57.5rem;
+  border-radius: 20px;
+}
+.MICROSOFT {
+  position: absolute;
+  z-index: 3;
+  width: 15%;
+  margin-top: -15rem;
+  margin-left: 83rem;
+  border-radius: 10px;
+}
+.Skills-list {
+  display: flex;
+  gap: 100px;
+  list-style: none;
+  padding: 0;
+}
+
+.Skills-list li {
+  font-size: 28px;
+  font-weight: bold;
+  color: #3b1e54;
+  text-align: center;
+  z-index: 4;
+  margin-top: -27.5rem;
+  margin-left: 8rem;
+}
+.Skills-txt {
+  display: flex;
+  gap: 10.6rem;
+  list-style: none;
+  padding: 0;
+}
+.Skills-txt li {
+  font-size: 28px;
+  font-weight: bold;
+  color: #3b1e54;
+  text-align: center;
+  z-index: 4;
+  margin-top: -4rem;
+  margin-left: 7.5rem;
+}
+.Skills-A {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+.Skills-A li {
+  font-size: 28px;
+  font-weight: bold;
+  color: #3b1e54;
+  text-align: center;
+  z-index: 4;
+  margin-top: -4rem;
+  margin-left: 25rem;
+}
+.Skills-M {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+.Skills-M li {
+  font-size: 28px;
+  font-weight: bold;
+  color: #3b1e54;
+  text-align: center;
+  z-index: 4;
+  margin-top: -4rem;
+  margin-left: 76rem;
+}
+
+.Star {
+  margin-top: 32.5rem;
+  z-index: 1;
+  width: 22%;
+}
+.Blob {
+  position: absolute;
+  width: 30%;
+  padding-top: 14rem;
+  right: 0;
+  z-index: 1;
+}
+.Pro-youtube {
+  position: absolute;
+  width: 5%;
+  margin-top: 5rem;
+  left: 6rem;
+}
+.Pro-tiktok {
+  position: absolute;
+  width: 5%;
+  margin-top: 5.5rem;
+  left: 60rem;
+}
+.Project-con {
+  display: column;
+  grid-template-columns: repeat(3, 1fr);
+  z-index: 2;
+  width: 60%;
+  margin-top: -45rem;
+  margin-left: 5rem;
+  border-radius: 25px;
+}
+.Project-con img {
+  border-radius: 25px;
+  margin: 1rem 1rem;
+}
+.Tiktok {
+  position: absolute;
+  z-index: 2;
+  width: 60%;
+  margin-top: -35rem;
+  margin-left: 65rem;
+  border-radius: 25px;
+}
+.Tiktok img {
+  border-radius: 25px;
+  margin: 1rem 1rem;
+}
+.Txt-YT {
+  font-size: 32px;
+  font-weight: bold;
+  color: #3b1e54;
+  position: absolute;
+}
+.Pro-txt {
+  margin-top: -48.5rem;
+  margin-left: 12.5rem;
+  list-style: none;
+}
+.Txt-t {
+  list-style: none;
+  margin-left: 66rem;
+  margin-top: -1.5rem;
+}
+

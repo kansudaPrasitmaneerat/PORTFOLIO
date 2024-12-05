@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <div class="base"><img src="img/Vector3.png" alt="Vector" /></div>
+    <section class="conber">
+      <div class="radius"></div>
+      <div class="radius"></div>
+      <div class="radius"></div>
+      <div class="radius"></div>
+      <div class="radius"></div>
+      <div class="radius"></div>
+      <div class="radius"></div>
+      <div class="radius"></div>
+    </section>
+    <div class="skills-img">
+      <img src="img/UX:UI.png" alt="UX/UI" class="UI" />
+      <img src="img/HTML.svg" alt="HTML" class="HTML" />
+      <img src="img/CSS.svg" alt="CSS" class="CSS" />
+      <img src="img/Mysql.png" alt="MYSQL" class="MYSQL" />
+      <img src="img/blynk.png" alt="BLYNK" class="BLYNK" />
+      <img src="img/VM.png" alt="VM" class="VM" />
+      <img src="img/C.png" alt="C++" class="C" />
+      <img src="img/Arduino.png" alt="ARDUINO" class="ARDUINO" />
+      <img src="img/Microsoft office.png" alt="MICROSOFT" class="MICROSOFT" />
+    </div>
+    <section>
+      <ul class="Skills-list">
+        <li>UX/UI Design</li>
+        <li>HTML + CSS</li>
+        <li>Mysql Database</li>
+        <li>Blynk IOT</li>
+      </ul>
+      <ul class="Skills-txt">
+        <li>Virtual Machine <br />Azure</li>
+        <li><br>C++</li>
+      </ul>
+      <ul class="Skills-A">
+        <li><br>Arduino</li>
+      </ul>
+      <ul class="Skills-M">
+        <li><br>Microsoft Office</li>
+      </ul>
+    </section>
+    <script>
+      fetch("nav.html")
+        .then((response) => response.text())
+        .then((data) => (document.getElementById("navbar").innerHTML = data))
+        .catch((error) =>
+          console.error("Error loading the navigation:", error)
+        );
+    </script>
+  </body>
+</html>
